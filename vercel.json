@@ -1,14 +1,14 @@
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "server.js",
-        "use": "@vercel/node"
-      }
-    ],
-    "functions": {
-      "server.js": {
-        "timeout": 30  
-      }
+  "version": 2,
+  "builds": [
+    {
+      "src": "server.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "functions": {
+    "api/index.js": {
+      "timeout": 30  
     }
   }
+}
