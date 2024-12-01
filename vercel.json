@@ -5,10 +5,5 @@
       "src": "server.js",
       "use": "@vercel/node"
     }
-  ],
-  "functions": {
-    "api/index.js": {
-      "timeout": 30  
-    }
-  }
+  ]
 }
