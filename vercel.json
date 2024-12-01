@@ -1,14 +1,9 @@
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "server.js",
-        "use": "@vercel/node"
-      }
-    ],
-    "functions": {
-      "server.js": {
-        "timeout": 30  
-      }
+  "version": 2,
+  "functions": {
+    "server.js": {
+      "runtime": "nodejs18.x",
+      "timeout": 30
     }
   }
+}
