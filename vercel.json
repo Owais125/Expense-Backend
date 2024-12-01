@@ -6,9 +6,19 @@
       "use": "@vercel/node"
     }
   ],
+<<<<<<< HEAD
   "functions": {
     "api/index.js": {
       "timeout": 30  
     }
   }
 }
+=======
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "server.js"
+    }
+  ]
+}
+>>>>>>> 85e929f65cab350aa66fc624a4662ae3688c8608
